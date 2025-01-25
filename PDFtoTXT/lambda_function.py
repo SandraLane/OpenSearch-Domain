@@ -31,7 +31,7 @@ def extract_content(event):
         #Read the target bucket from the lambda environment variable
         targetBucket = os.environ['TARGET_BUCKET']
     except:
-        targetBucket = "artifactbucket012425"
+        targetBucket = "skl-dest"
     print('Target bucket is', targetBucket)
 
     bucket = event['Records'][0]['s3']['bucket']['name']
