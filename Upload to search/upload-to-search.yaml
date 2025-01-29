@@ -11,4 +11,4 @@ Resources:
       Description: ''
       MemorySize: 512
       Timeout: 900
-      Role: 'arn:aws:iam::977765183651:role/ec2-multirole2'
+      Role: 'arn:aws:iam::977765183651:role/service-role/opensearch-codebuild-service-role'
