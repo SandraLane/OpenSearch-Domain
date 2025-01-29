@@ -5,10 +5,10 @@ phases:
       python: 3.10
   build:
     commands:
-      - aws cloudformation package --template-file PDFtoTXT/pdftotxt.yaml --s3-bucket artifactbucket012425 --output-template-file lambdaoutput.yaml
+      - aws cloudformation package --template-file PDFtoTXT/pdftotxt.yaml --s3-bucket artifactbucket012425 --output-template-file PDFtoTXT/lambdaoutput.yaml
 
 artifacts:
   type: zip
   files:
-    - pdftotxt.yaml
-    - lambdaoutput.yaml
+    - PDFtoTXT/pdftotxt.yaml
+    - PDFtoTXT/lambdaoutput.yaml
