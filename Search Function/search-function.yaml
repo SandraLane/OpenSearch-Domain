@@ -11,4 +11,4 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 300
-      Role: 'arn:aws:iam::977765183651:role/ec2-multirole2'
+      Role: 'arn:aws:iam::977765183651:role/service-role/lambda_function-role-yf8kngo9'
