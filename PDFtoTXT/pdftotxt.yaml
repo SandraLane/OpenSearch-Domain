@@ -14,6 +14,6 @@ Resources:
       Role: 'arn:aws:iam::977765183651:role/service-role/lambda_function-role-yf8kngo9'
       Environment:
         Variables:
-          TARGET_BUCKET: gl-dest-20123
+          TARGET_BUCKET: gl-intermediary-20789
       Layers:
         - 'arn:aws:lambda:us-east-1:977765183651:layer:PDFtoTXT:1'
