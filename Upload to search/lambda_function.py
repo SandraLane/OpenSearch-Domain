@@ -25,7 +25,7 @@ date = ''
 def listToString(s):
     str1 = ""
     for ele in s:
-        str1 += bytes.decode(ele)
+        str1 += bytes.decode(ele, encoding ='utf-8')
     return str1
     
 # Lambda execution starts here
